@@ -128,16 +128,11 @@ select {
         
     }
 
-    #reset-btn {
+    #reset-btn, #difficulty-label, select {
         font-size: 70%;
     }
-
-    #difficulty-label {
-        font-size: 70%;
-    }
-
+    
     select {
-        font-size: 70%;
         padding: 8px 14px 8px 12px;
     }
 }
