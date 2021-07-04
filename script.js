@@ -18,7 +18,7 @@ const difficultyValue = {
     medium: 6,
     hard: 15,
     tough: 24,
-    giga: 45
+    inhuman: 45
 };
 
 let colors = [];                    // array to store randomly generated hex color values
@@ -125,6 +125,7 @@ function reset() {
         messageDisplay.textContent = "";
         score = 0;
         scoreDisplay.textContent = 0;
+        difficultyReset = false;
     }
     colors = generateRandomColors(numberOfSquares);                                 // regenerating the random colors
     randomlyPickedColor = generateRandomIndex();                                    // regenerating the random index
